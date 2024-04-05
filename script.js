@@ -6,7 +6,7 @@ applyButton.addEventListener('click', function() {
     displayArea.innerHTML =`Введений текст - ${inputText}`;
 });
 
-let selectedLetters = [];
+const selectedLetters = [];
 
 document.addEventListener('mousedown', function(event) {
     if (event.target.tagName === 'DIV') {
